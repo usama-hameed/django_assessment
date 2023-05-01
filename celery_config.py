@@ -5,7 +5,7 @@ app = Celery('tasks', broker='amqp://guest:guest@rabbitmq:5672/vhost')
 
 @app.task
 def scheduler():
-    collection.update_many({"status": "upcoming"}, {"$inc": {"upcoming": 10}})
+    collection.update_many({"status": "upcoming"}, {"$inc": {"ranking": 10}})
 
 
 app.conf.beat_schedule = {
