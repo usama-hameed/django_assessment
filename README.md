@@ -4,7 +4,7 @@ you can run the projects in following steps:
 ```
 git clone https://github.com/usama-hameed/django_assessment.git
 
-cd dajngo_assessment
+cd django_assessment
 ```
 Run Following command 
 ```
