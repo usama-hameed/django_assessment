@@ -15,3 +15,4 @@ README.txt
 db.sqlite3
 app/migrations
 app/.pytest_cache
+app/__pycache__
